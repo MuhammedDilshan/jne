@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Arial;
+}
+
+header .wrapper {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    width: 70px;
+}
+
+header .logo img {
+    width: 100%;
+    display: block;
+}
+
+header .menu {
+    display: flex;
+}
+
+header .menu li {
+    margin-right: 50px;
+    padding-bottom: 10px;
+    position: relative;
+    opacity: 0.6;
+    transition: 0.3s ease-in;
+}
+
+header .menu li:last-child {
+    margin-right: 0;
+}
+
+header .menu li.active {
+    opacity: 1;
+    border-bottom: 2px solid #f7f8ff;
+}
+
+header .menu li:hover {
+    opacity: 1;
+}
+
+header .menu li::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #f7f8ff;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+header .menu li:hover::after {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+header .menu li a {
+    display: block;
+    color: #f7f8ff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+
+/* # spotlight start */
+
+#spotlight {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#spotlight h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 36px;
+    color: #41447D;
+}
+
+#spotlight p {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.2em;
+    color: #797979;
+}
+
+
+/* # spotlight end */
+
+
+/* #sports start */
+
+#sports {
+    padding: 50px 0;
+}
+
+#sports .content h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #41447D;
+}
+
+#sports .content .top ul {
+    display: flex;
+    justify-content: center;
+}
+
+#sports .content .top ul li {
+    width: 28%;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+#sports .content .top ul li:last-child {
+    margin-right: 0;
+}
+
+#sports .content .top ul li img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#sports .content .bottom ul {
+    display: flex;
+    justify-content: center;
+}
+
+#sports .content .bottom ul li {
+    width: 28%;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+#sports .content .bottom ul li:last-child {
+    margin-right: 0;
+}
+
+#sports .content .bottom ul li img {
+    width: 100%;
+    border-radius: 10px;
+}
