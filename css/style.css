@@ -36,7 +36,7 @@ header .wrapper {
 }
 
 #spotlight h1 {
-    font-size: 42px;
+    font-size: 38px;
     font-weight: 600;
     margin-bottom: 36px;
     color: #41447D;
@@ -156,6 +156,10 @@ header .wrapper {
     color: #0808da;
 }
 
+#portfolio .staff ul li h5 {
+    font-size: 16px;
+}
+
 #gallery {
     padding: 0 0 80px 0;
 }
@@ -194,7 +198,7 @@ header .wrapper {
 
 @media all and (max-width:768px) {
     #spotlight h1 {
-        font-size: 36px;
+        font-size: 34px;
         margin-bottom: 24px;
     }
     #sports .content h1 {
@@ -226,6 +230,9 @@ header .wrapper {
     }
     #portfolio .container h1 {
         font-size: 28px;
+    }
+    #portfolio .staff ul li h5 {
+        font-size: 14px;
     }
 }
 
@@ -318,6 +325,9 @@ header .wrapper {
         margin-right: 0;
         margin-bottom: 14px;
     }
+    #portfolio .staff ul li h5 {
+        font-size: 12px;
+    }
     #gallery {
         padding: 0 0 60px 0;
     }
@@ -334,6 +344,12 @@ header .wrapper {
 }
 
 @media all and (max-width:360px) {
+    #spotlight h1 {
+        font-size: 24px;
+    }
+    #sports .content h1 {
+        font-size: 22px;
+    }
     #portfolio .staff {
         font-size: 16px;
         padding: 0 34px;
@@ -342,11 +358,17 @@ header .wrapper {
         height: 110px;
         width: 85%;
     }
+    #portfolio .container h1 {
+        font-size: 22px;
+    }
 }
 
 @media all and (max-width:320px) {
+    #spotlight h1 {
+        font-size: 22px;
+    }
     #portfolio .container h1 {
-        font-size: 26px;
+        font-size: 20px;
     }
     #portfolio .container {
         height: 100px;
